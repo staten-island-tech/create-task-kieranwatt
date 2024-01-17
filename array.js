@@ -1,14 +1,9 @@
 const mewmax = [
     {
-        firstname: "Corange",
-        lastname: "Porange",
-        age: 12,
-        city: "Cleveland",
-        hometown: "Bed-Stuy, NY",
-        cool: false,
-        favoritenumbers: ["1","3"],
+        question: "Mewing improves facial health",
+        rightwrong: true,
     },
-
+]
 
 
     // 1. True or false: Mewing improves facial health.
