@@ -3,8 +3,30 @@ const mewmax = [
         question: "Mewing improves facial health",
         rightwrong: true,
     },
+    {
+        question: "A lack of mewing causes facial deformities.",
+        rightwrong: false,
+    },
+    {
+        question: "Mewing can change one's facial structure.",
+        rightwrong: true,
+    },
+    {
+        question: "A lack of mewing causes respiratory issues.",
+        rightwrong: false,
+    },
+    {
+        question: "Mewing helps with swallowing more food.",
+        rightwrong: false,
+    },
+    {
+        question: "It's important to mew while eating.",
+        rightwrong: true,
+    },
 ]
 
+
+// display all questions as cards with true false buttons, then allow you to slect and answer and display text correct or incorrect.
 
     // 1. True or false: Mewing improves facial health.
     
