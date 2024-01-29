@@ -20,3 +20,5 @@ const bladeeQuestions = [
     { question: "Bladee's collaboration with Yung Lean is known as 'Whitearmor'.", answer: false },
     { question: "Bladee is fluent in multiple languages, including Mandarin.", answer: false }
 ];
+
+console.log(bladeeQuestions[5].question)
