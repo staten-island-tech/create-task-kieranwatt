@@ -1,54 +1,22 @@
-const mewmax = [
-    {
-        question: "Mewing improves facial health",
-        rightwrong: true,
-    },
-    {
-        question: "A lack of mewing causes facial deformities.",
-        rightwrong: false,
-    },
-    {
-        question: "Mewing can change one's facial structure.",
-        rightwrong: true,
-    },
-    {
-        question: "A lack of mewing causes respiratory issues.",
-        rightwrong: false,
-    },
-    {
-        question: "Mewing helps with swallowing more food.",
-        rightwrong: false,
-    },
-    {
-        question: "It's important to mew while eating.",
-        rightwrong: true,
-    },
-]
-
-
-// display all questions as cards with true false buttons, then allow you to slect and answer and display text correct or incorrect.
-
-    // 1. True or false: Mewing improves facial health.
-    
-    // 2. True or false: A lack of mewing causes facial deformities.
-    
-    // 3. True or false: Mewing can change one's facial structure.
-    
-    // 4. True or false: A lack of mewing causes respiratory issues.
-    
-    // 5. True or false: Mewing helps with swallowing more food.
-    
-    // 6. True or false: It's important to mew while eating.
-
-    
-// True
-
-// False
-
-// True
-
-// False
-
-// False
-
-// True
+const bladeeQuestions = [
+    { question: "Bladee's real name is Benjamin Reichwald.", answer: true },
+    { question: "Bladee is a member of the Drain Gang collective.", answer: true },
+    { question: "Bladee's debut mixtape is titled 'Eversince'.", answer: true },
+    { question: "Bladee was born in Stockholm, Sweden.", answer: true },
+    { question: "Bladee's primary music genre is country.", answer: false },
+    { question: "Bladee is known for his unique and autotuned vocal style.", answer: true },
+    { question: "Bladee's collaborative project with Ecco2k is called 'Trash Island'.", answer: false },
+    { question: "Bladee has a background in classical music.", answer: true },
+    { question: "Bladee has a clothing brand called 'G'LOSS'.", answer: true },
+    { question: "Bladee's album 'Red Light' was released in 2018.", answer: true },
+    { question: "Bladee has collaborated with artists like Yung Lean and Thaiboy Digital.", answer: true },
+    { question: "Bladee's music is often associated with the genre known as cloud rap.", answer: true },
+    { question: "Bladee is also known by the alias 'Bladeecity'.", answer: true },
+    { question: "Bladee's father is a famous Swedish actor.", answer: false },
+    { question: "Bladee has a degree in computer science.", answer: false },
+    { question: "Bladee's official debut studio album is titled '333'.", answer: false },
+    { question: "Bladee has a project called 'Gluee' released in 2011.", answer: false },
+    { question: "Bladee has a song titled 'Carwash' featuring Ecco2k.", answer: true },
+    { question: "Bladee's collaboration with Yung Lean is known as 'Whitearmor'.", answer: false },
+    { question: "Bladee is fluent in multiple languages, including Mandarin.", answer: false }
+];
