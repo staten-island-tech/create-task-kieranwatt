@@ -21,4 +21,56 @@ const bladeeQuestions = [
     { question: "Bladee is fluent in multiple languages, including Mandarin.", answer: false }
 ];
 
-console.log(bladeeQuestions[5].question)
+const quizContainer = document.getElementById('quiz-container');
+
+function displayQuestions() {
+    bladeeQuestions.forEach((questionObj, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.classList.add('questionbox');
+
+        const questionText = document.createElement('div');
+        questionText.classList.add('bladeeqs');
+        questionText.textContent = questionObj.question;
+
+        const truefalsebtns = document.createElement('div');
+        truefalsebtns.classList.add('truefalse');
+
+        const truebtn = document.createElement('button');
+        truebtn.classList.add('btn');
+        truebtn.textContent = 'True';
+        truebtn.addEventListener('click', function () {
+            checkAnswer(questionObj, true);
+        });
+
+        const falsebtn = document.createElement('button');
+        falsebtn.classList.add('btn');
+        falsebtn.textContent = 'False';
+        falsebtn.addEventListener('click', function () {
+            checkAnswer(questionObj, false);
+        });
+
+        truefalsebtns.appendChild(truebtn);
+        truefalsebtns.appendChild(falsebtn);
+
+        questionDiv.appendChild(questionText);
+        questionDiv.appendChild(truefalsebtns);
+
+        quizContainer.appendChild(questionDiv);
+    });
+}
+
+function checkAnswer(questionObj, userAnswer) {
+    const resultElement = document.createElement('p');
+    resultElement.classList.add('result');
+
+    if (userAnswer === questionObj.answer) {
+        resultElement.textContent = 'Correct!';
+    } else {
+        resultElement.textContent = 'Incorrect. The correct answer is ' + (questionObj.answer ? 'True' : 'False');
+    }
+
+    quizContainer.appendChild(resultElement);
+}
+
+
+displayQuestions();
