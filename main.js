@@ -24,7 +24,7 @@ const bladeeQuestions = [
 const quizContainer = document.getElementById('quiz-container');
 
 function displayQuestions() {
-    bladeeQuestions.forEach((questionObj, index) => {
+    bladeeQuestions.forEach((questionObj) => {
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('questionbox');
 
